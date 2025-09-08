@@ -8,7 +8,7 @@ it gets stored in 1D array -> c*i + j
 Find 8
  int arr[3][4] = {
         {1,2,3,4},     -> 4*1 + 3 = 7th index in 1D -> {1,2,3,4,5,6,7,8,9,10,11,12};
-        {5,6,7,8},
+        {5,6,7,8},        because in memory 2D array is stored in linear array form
         {9,10,11,12},        
     };
 
