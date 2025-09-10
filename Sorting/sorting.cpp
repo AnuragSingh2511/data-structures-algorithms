@@ -10,6 +10,26 @@ Selection Sort : T.C - O(n^2) , S.C - O(1)
 What if I select the minimum element and put it at correct position
 
 Insertion Sort : T.C - O(n^2) , S.C - O(1)
+Start from the 2nd element, pick it as key
+, and shift all bigger elements from the sorted left part to the right. 
+Finally, insert key at its correct position.
+
+Counting Sort : 
+
+
+Radix Sort :
+
+
+Bucket Sort :
+
+
+Quick Sort : 
+
+
+Merge Sort :
+
+
+Heap Sort : 
 */
 
 void bubbleSort(vector<int> &v){ 
