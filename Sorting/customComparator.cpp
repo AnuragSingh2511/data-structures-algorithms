@@ -16,7 +16,8 @@ bool mycomp(int &a, int&b){
 
 bool myCompFor1stIndex(vector<int> &a, vector<int> &b){
     // return a[0] < b[0];
-    return a[1] < b[1]; // sort by 1st index
+    return a[1] < b[1]; // sort by 1st index..increasing
+    // return a[1] > b[1]; // sort by 1st index..deccreasing
 }
 
 void print(vector<int> v){
