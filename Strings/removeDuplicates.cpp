@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 string removeDuplicates(string s){ // O(n) , O(n)
