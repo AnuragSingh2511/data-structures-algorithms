@@ -33,6 +33,7 @@ bool validPalindrome(string s){
             return ans1 || ans2;
         }
     }
+    return true;
 }
 // O(n) , //O(1)
 int main()
