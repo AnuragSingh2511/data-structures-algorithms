@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 string removeOccurences(string s, string part){ // O(n^2) , O(1)
