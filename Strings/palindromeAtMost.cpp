@@ -40,7 +40,28 @@ int main()
 {     
     string s;
     getline(cin, s);
+    
+     /*
+    Sample Input 1:
+    abca
 
+    Sample Output 1:
+    Valid
+
+    Explanation:
+    Remove 'b' → "aca" (palindrome)
+
+
+    Sample Input 2:
+    abc
+
+    Sample Output 2:
+    Invalid
+
+    Explanation:
+    Cannot become palindrome by removing only one character
+    */
+   
     cout << (validPalindrome(s) ? " Valid Palindrome " : " Invalid Palindrome ");
    
     return 0;
