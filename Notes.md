@@ -1,4 +1,10 @@
 # Strings
+### Anagram: Two strings that have same characters with same frequency, but arrangement can be different.
+
+Example: listen and silent, evil and vile
+### Palindrome: A word or string that reads the same forward and backward.
+Example: madam racecar 121
+
 # Arrays
 # Graphs
 ### Graph is a non-linear DS consisting of nodes that contain data and are connected to other nodes through edges
